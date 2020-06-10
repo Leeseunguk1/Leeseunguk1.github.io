@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    background-color: green;
+    height: 50px;
+}
+
+ul{
+    float: right;
+    list-style: none;
+    text-decoration: none;
+}
+
+li{
+    float: left;
+    margin: 5px;   
+}
+
+section:nth-child(1){
+    background-color: red;
+    height: 150px;
+    
+}
+input {
+    display: block;
+    height: 40px;
+    margin-left: 10px;
+}
+
+section:nth-child(2){
+    background-color: orange;
+    height: 120;
+}
+
+footer{
+    background-color: aqua; 
+}
+
+h1{
+    margin-left: 10px;
+}
+
+
